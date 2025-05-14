@@ -81,6 +81,9 @@ Esta gráfica presenta la misma señal de ECG ya filtrada, pero con la detecció
 
 
 D. Análisis nde HVR en el dominio del tiempo:
+
+
+
 <img width="506" alt="Captura de pantalla 2025-05-13 a la(s) 7 36 18 p m" src="https://github.com/user-attachments/assets/dca8f1bf-2bf1-4a4a-b7b5-1bd1535a4975" />
 
 
