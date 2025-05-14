@@ -82,11 +82,11 @@ Esta gráfica presenta la misma señal de ECG ya filtrada, pero con la detecció
 D. Análisis nde HVR en el dominio del tiempo:
 
 
-
+parametros básicos de la HVR;
 <img width="506" alt="Captura de pantalla 2025-05-13 a la(s) 7 36 18 p m" src="https://github.com/user-attachments/assets/dca8f1bf-2bf1-4a4a-b7b5-1bd1535a4975" />
 
 
-
+Coeficientes wavelet morlet; 
 <img width="717" alt="Figure 2025-05-13 193406 (3)" src="https://github.com/user-attachments/assets/b8f15c32-b5b8-4378-81d5-8fc932b7d702" />
 
 
