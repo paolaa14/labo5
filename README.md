@@ -53,7 +53,8 @@ void loop() {
 La gráfica de la señal tomada directamente desde el arduino se evidencia a continuación;
 
 Imagen 4, señal ECG original de la matriz;
-<img width="857" alt="Figure 2025-05-13 193406 (0)" src="https://github.com/user-attachments/assets/8f98d940-118a-43f4-adc0-19c9d13ca0cf" />
+
+<img width="857" alt="5min" src="https://github.com/user-attachments/assets/a752db1a-4a2d-4092-8a38-0b2a1d6755fd" />
 
 La imagen 4 muestra la señal del corazón (ECG) tal cual, sacada del sistema antes de limpiarla digitalmente. El tiempo se mide en milisegundos (ms) en la línea horizontal, y la fuerza de la señal en milivoltios (mV) en la línea vertical. Se ven unos 3,5 segundos, mostrando varios latidos completos. 
 
