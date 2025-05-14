@@ -81,7 +81,10 @@ Esta gráfica presenta la misma señal de ECG ya filtrada, pero con la detecció
 
 
 D. Análisis nde HVR en el dominio del tiempo:
-s
+
+
+<img width="717" alt="Figure 2025-05-13 193406 (3)" src="https://github.com/user-attachments/assets/b8f15c32-b5b8-4378-81d5-8fc932b7d702" />
+
 Espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
 <img width="798" alt="Figure 2025-05-13 193406 (5)" src="https://github.com/user-attachments/assets/46987aef-fb3c-47a5-85a2-b8b859a67458" />
 
