@@ -35,6 +35,9 @@ Inicialmente, se seleccionó un sujeto de prueba, para medirle la señal electro
 Imagen 3, foto del sujeto: 
 ![Imagen de WhatsApp 2025-05-13 a las 17 18 06_8be3bb91](https://github.com/user-attachments/assets/96d86a0e-ce74-43e2-9b7e-fab7703eb361)
 
+Es necesario mencionar que en cuanto al sujeto no se autoriza el trataamiento de datos personales, sea para otros estudios, o para el mismo informe, por lo cual los distintos datos evidenciados solo serán implementados para este laboratorio. 
+
+
 La señal se tomó durante 5 minutos en reposo, con el fin de evitar el ruido experimental causado por distintos factores como; ropa, cables rozando, etc.
 
 Para leer continuamente la señal ECG, se implementa un código de arduino que llega al pin A0, este código permite enviar los datos al computador a través del puerto serial, el código mencionado es (teniendo en cuenta que es implementando arduino UNO y el sensor ECG);
