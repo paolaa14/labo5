@@ -35,7 +35,10 @@ Imagen 3, foto del sujeto:
 
 La señal se tomó durante 5 minutos en reposo, con el fin de evitar el ruido experimental causado por distintos factores como; ropa, cables rozando, etc.
 
-codigo arduino: 
+Para leer continuamente la señal ECG, se implementa un código de arduino que llega al pin A0, este código permite enviar los datos al computador a través del puerto serial, el código mencionado es (teniendo en cuenta que es implementando arduino UNO y el sensor ECG);
+
+El código arduino:
+
 void setup() {
   // Iniciar comunicación serial
   Serial.begin(9600);
@@ -48,7 +51,8 @@ void loop() {
 }
 
 
-
+C. Pre procesamiento de la señal:
+Posterior se deben aplicar filtros digitales para lograr eliminar el ruido de la señal ¿
 
 Señal ECG original de la matriz;
 <img width="857" alt="Figure 2025-05-13 193406 (0)" src="https://github.com/user-attachments/assets/8f98d940-118a-43f4-adc0-19c9d13ca0cf" />
