@@ -50,12 +50,20 @@ void loop() {
  delay(4);
 }
 
+La gráfica de la señal tomada directamente desde el arduino se evidencia a continuación;
+
+Imagen 4, señal ECG original de la matriz;
+<img width="857" alt="Figure 2025-05-13 193406 (0)" src="https://github.com/user-attachments/assets/8f98d940-118a-43f4-adc0-19c9d13ca0cf" />
+
+La imagen 4 muestra la señal del corazón (ECG) tal cual, sacada del sistema antes de limpiarla digitalmente. El tiempo se mide en milisegundos (ms) en la línea horizontal, y la fuerza de la señal en milivoltios (mV) en la línea vertical. Se ven unos 3,5 segundos, mostrando varios latidos completos. 
+
+La señal se ve como un ECG normal, con las partes QRS (sobre todo los picos R) claras y altas, de más de 600 mV, no obstante, también hay anomalías en la línea base y ruido rápido y lento, tal vez por: Movimientos o respiración que la ensucian (cosas lentas) o electricidad que molesta del entorno o del sistema (cosas rápidas). 
+
+Esto es normal en una señal sin filtrar, y por eso hay que limpiarla con filtros digitales. Estos filtros quitan lo que no sirve y mejoran la señal, ayudando a encontrar los picos R y a estudiar cómo cambia el ritmo del corazón (HRV). Además, viendo cómo están los picos R, se puede decir que el corazón late a un ritmo constante, lo que ayuda a probar los programas que la analizan. Pero es clave usar filtros para encontrar bien lo importante. 
+
 
 C. Pre procesamiento de la señal:
-Posterior se deben aplicar filtros digitales para lograr eliminar el ruido de la señal ¿
-
-Señal ECG original de la matriz;
-<img width="857" alt="Figure 2025-05-13 193406 (0)" src="https://github.com/user-attachments/assets/8f98d940-118a-43f4-adc0-19c9d13ca0cf" />
+Posterior se deben aplicar filtros digitales para lograr eliminar el ruido de la señal 
 
 
 Señal ECG filtrada (pasa alta y pasa bajo):
