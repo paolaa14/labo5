@@ -70,7 +70,6 @@ Imagen 5, señal ECG filtrada (pasa alta y pasa bajo):
 Esta gráfica muestra la señal de ECG después de haber sido procesada con filtros digitales de tipo pasa alta y pasa baja. El propósito de este paso es eliminar el ruido presente en la señal original, tanto de baja frecuencia (como el producido por movimientos corporales o la respiración) como de alta frecuencia (como interferencias eléctricas o artefactos del entorno). Este filtrado permite obtener una señal más limpia y estable, fundamental para su posterior análisis. La curva resultante muestra con claridad los ciclos cardíacos, especialmente el complejo QRS, dentro del cual el pico R es el más prominente. Este preprocesamiento es una etapa clave dentro del procesamiento digital de señales, ya que permite mejorar la calidad de la información útil y facilita la implementación de algoritmos para detección de eventos y análisis cuantitativos.
 
 
-
 Después, lo que hacemos es encontrar los picos R, que vienen siendo los puntos más álgidos del complejo QRS y que señalan cuándo se contraen los ventrículos. Para dar con ellos, usamos la señal que ya habíamos limpiado antes, aplicando métodos sencillos para buscar los puntos más altos y así clavar dónde están los picos con exactitud. Una vez que tenemos los picos R bien ubicados, calculamos el tiempo que hay entre uno y otro, que se conoce como intervalo R-R, y con esto armamos una nueva señal basada en los tiempos entre cada latido. Esta info es clave para estudiar cómo varía la frecuencia cardiaca (HRV), porque nos deja ver cómo el sistema nervioso autónomo anda regulando el ritmo del corazón. En la Imagen 6 se puede ver cómo queda todo esto, con los picos R resaltados para que se note la regularidad de los latidos, dejando la señal lista para seguir analizándola ya sea mirando el tiempo, o usando técnicas como la transformada wavelet para ver el tiempo y la frecuencia a la vez, lo cual se evidencia en la imagen 6.
 
 Imagen 6, señal ECG filtrada con picos R:
@@ -87,7 +86,10 @@ D. Análisis nde HVR en el dominio del tiempo:
 <img width="506" alt="Captura de pantalla 2025-05-13 a la(s) 7 36 18 p m" src="https://github.com/user-attachments/assets/dca8f1bf-2bf1-4a4a-b7b5-1bd1535a4975" />
 
 
+
 <img width="717" alt="Figure 2025-05-13 193406 (3)" src="https://github.com/user-attachments/assets/b8f15c32-b5b8-4378-81d5-8fc932b7d702" />
+
+
 
 Espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
 <img width="798" alt="Figure 2025-05-13 193406 (5)" src="https://github.com/user-attachments/assets/46987aef-fb3c-47a5-85a2-b8b859a67458" />
