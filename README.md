@@ -10,13 +10,13 @@ Una VRC alta casi siempre indica buena capacidad de adaptación del sistema aut�
 
 
 
-
-Plan de acción para cumplir con el objetivo:
-
+Imagen 1, plan de acción para cumplir con el objetivo:
 ![image](https://github.com/user-attachments/assets/c838b62a-ee88-413c-bdd7-79f4a346ffd9)
 
 
-Diagrama de flujo que complementa el plan de acción:
+Imagen 2, diagrama de flujo que complementa el plan de acción:
+se evidencia por partes para mejor visualización del contenido del mismo.
+
 <img width="798![PHOTO-2025-05-13-17-18-06](https://github.com/user-attachments/assets/7093d273-0b0b-4d0c-9af4-df37c1cc0f61)
 " alt="Captura de pantalla 2025-05-13 a la(s) 7 28 27 p m" src="https://github.com/user-attachments/assets/f2cc8e0c-6b94-46b4-968d-207af0b6c524" />
 
@@ -27,21 +27,15 @@ Diagrama de flujo que complementa el plan de acción:
 
 
 
-
-
-
 B.Adquisición señal ECG;
+Inicialmente, se seleccionó un sujeto de prueba, para medirle la señal electrocardiográfica, el cual no tiene ninguna patología que pueda afectar el resultado de la señal, en la imagen 3 se evidencia al sujeto y adicional la ubicación de los electrodos (el de referencia que esta en la parte inferior que es la parte baja del tórax y los de arriba):
 
+Imagen 3, foto del sujeto: 
+![Imagen de WhatsApp 2025-05-13 a las 17 18 06_8be3bb91](https://github.com/user-attachments/assets/96d86a0e-ce74-43e2-9b7e-fab7703eb361)
 
-
-
-
+La señal se tomó durante 5 minutos en reposo, con el fin de evitar el ruido experimental causado por distintos factores como; ropa, cables rozando, etc.
 
 codigo arduino: 
-
-
-
-
 void setup() {
   // Iniciar comunicación serial
   Serial.begin(9600);
@@ -52,11 +46,6 @@ void loop() {
  Serial.println(analogRead(A0));
  delay(4);
 }
-
-
-
-foto mia; 
-![PHOTO-2025-05-13-17-18-06](https://github.com/user-attachments/assets/6f46fb13-94d7-43fe-854b-27fd7f6fb8df)
 
 
 
