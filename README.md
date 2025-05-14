@@ -1,3 +1,19 @@
+codigo arduino: 
+
+
+
+
+void setup() {
+  // Iniciar comunicación serial
+  Serial.begin(9600);
+}
+
+void loop() {
+  
+ Serial.println(analogRead(A0));
+ delay(4);
+}
+
 
 ![PHOTO-2025-05-13-17-18-06](https://github.com/user-attachments/assets/6f46fb13-94d7-43fe-854b-27fd7f6fb8df)
 
