@@ -1,3 +1,4 @@
+A. Fundamento teórico;
 Para la practica de laboratorio, fue necesario realizar una invertigación teórica acerca de los siguientes términos:
 
 - En cuanto al sistema autónomo (SNA) es el encargado de controlar funciones involuntarias del cuerpo como la frecuencia cardíaca, la digestión y la respiración. De la misma manera, es importante mencionar que este se divide en simpático (se activa en situaciones de peligro o huida, donde se aumenta la frecuencia cardiaca, se dilatan las pupilas y se reduce la digestión para ahorrar energía, también se redirige la sangre a los músculos, preparándonos para la acción) y el parasimpático (es la parte encargada del descanso, donde, se incrementa la digestión, se contraen las pupilas y se disminuye la frecuencia cardiaca).
@@ -13,6 +14,13 @@ Una VRC alta casi siempre indica buena capacidad de adaptación del sistema aut�
 Diagrama de flujo con el plan de acción para cumplir con el objetivo:
 
 ![image](https://github.com/user-attachments/assets/c838b62a-ee88-413c-bdd7-79f4a346ffd9)
+
+
+B.Adquisición señal ECG;
+
+
+
+
 
 
 codigo arduino: 
