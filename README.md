@@ -75,6 +75,12 @@ Señal ECG filtrada con picos R:
 <img width="857" alt="Figure 2025-05-13 193406 (2)" src="https://github.com/user-attachments/assets/12fb9ba7-4171-486a-9b19-c8079ea1dda7" />
 
 
+
+
+
+
+D. Análisis nde HVR en el dominio del tiempo:
+s
 Espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
 <img width="798" alt="Figure 2025-05-13 193406 (5)" src="https://github.com/user-attachments/assets/46987aef-fb3c-47a5-85a2-b8b859a67458" />
 
