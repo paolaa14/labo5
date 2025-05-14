@@ -89,13 +89,24 @@ Esta gráfica presenta la misma señal de ECG ya filtrada, pero con la detecció
 
 D. Análisis nde HVR en el dominio del tiempo:
 
+El análisis de la variabilidad de la frecuencia cardíaca (HRV) en el dominio del tiempo, lo que hacemos es examinar cómo los espacios entre cada latido (los intervalos R-R) se modifican con el pasar del tiempo. Con este análisis, podemos entender mejor cómo funciona el sistema nervioso autónomo, ya que la VFC nos dice si hay equilibrio entre las ramas simpática y parasimpática. Para hacer esto, primero medimos los intervalos R-R detectando los picos R en la señal del ECG, una vez que la hemos limpiado de ruidos. Con estos intervalos en mano, calculamos cosas básicas como el promedio y la dispersión, que nos dan una idea de cuánta variabilidad hay y qué tan regular es el corazón. Es algo muy común en el análisis de señales del cuerpo, ya que nos permite interpretar lo que sucede en el cuerpo usando herramientas sencillas de procesamiento digital, como cálculos estadísticos aplicados a una señal que viene del ECG. 
 
-parametros básicos de la HVR;
+ 
+Imagen 7, parámetros básicos de la HVR;
 <img width="506" alt="Captura de pantalla 2025-05-13 a la(s) 7 36 18 p m" src="https://github.com/user-attachments/assets/dca8f1bf-2bf1-4a4a-b7b5-1bd1535a4975" />
 
 
-Coeficientes wavelet morlet; 
+En los datos que tenemos en la imagen 7, vemos una serie de 23 intervalos R-R expresados en segundos, con números que van desde cerca de 0. 064 hasta 0. 112 segundos. Con estos datos, calculamos un promedio de los intervalos R-R de 0. 0741 segundos, lo que quiere decir que, en general, el tiempo entre latidos en esta medición fue de 74. 1 milisegundos. La dispersión es de 0. 0097 segundos, lo que nos indica que hay una variabilidad moderada en los intervalos. Esto sugiere que el ritmo del corazón es bastante regular, pero con pequeños cambios naturales, algo normal en condiciones normales. Además, se muestran medidas como el MSE (error cuadrático medio) y el R-squared, que, aunque se usan más para ajustar modelos, pueden servir para ver cuán bien se reconstruye o predice la señal R-R en ciertos casos. También se muestran los promedios de intensidad en las bandas de baja y alta frecuencia, que nos preparan para el análisis espectral. 
+
+
+
+Imagen 8 , coeficientes wavelet morlet; 
 <img width="717" alt="Figure 2025-05-13 193406 (3)" src="https://github.com/user-attachments/assets/b8f15c32-b5b8-4378-81d5-8fc932b7d702" />
+
+
+En la imagen 8 , vemos los coeficientes que salieron al usar la transformada wavelet continua con la wavelet de Morlet, que es una forma de mirar las señales en el tiempo y en la frecuencia a la vez. La gráfica nos deja ver cómo cambian las diferentes partes de la señal, cada una con su propia frecuencia, a medida que avanza el tiempo. En el eje vertical tenemos las frecuencias, medidas en hercios (Hz), y en el horizontal, el tiempo, medido en milisegundos. Los puntos donde la gráfica se ve más intensa, con colores más vivos, nos dicen que hay más energía o actividad en ciertas frecuencias y en ciertos momentos. Aquí, se ve claramente que la actividad se concentra en las frecuencias más bajas, más o menos entre 5 y 15 Hz, que suele ser normal en las señales del corazón y puede tener que ver con el sistema parasimpático. Esta forma de verlo ayuda mucho porque nos da más información que solo mirar la señal en el tiempo, y nos enseña cómo el ritmo del corazón va cambiando con el tiempo, cosa que no podríamos ver solo con números y estadísticas.
+
+
 
 
 
