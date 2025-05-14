@@ -61,9 +61,11 @@ foto mia;
 
 
 
-
+Señal ECG original de la matriz;
 <img width="857" alt="Figure 2025-05-13 193406 (0)" src="https://github.com/user-attachments/assets/8f98d940-118a-43f4-adc0-19c9d13ca0cf" />
 
+
+Señal ECG filtrada (pasa alta y pasa bajo)
 <img width="857" alt="Figure 2025-05-13 193406 (1)" src="https://github.com/user-attachments/assets/ce944648-55a5-406a-8d6e-7ddef2d8ddf2" />
 
 
