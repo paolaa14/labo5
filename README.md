@@ -109,6 +109,7 @@ En la imagen 8 , vemos los coeficientes que salieron al usar la transformada wav
 
 
 
+E. Aplicación de transformada Wavelet 
 
 Espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
 <img width="798" alt="Figure 2025-05-13 193406 (5)" src="https://github.com/user-attachments/assets/46987aef-fb3c-47a5-85a2-b8b859a67458" />
