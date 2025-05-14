@@ -63,18 +63,19 @@ Esto es normal en una señal sin filtrar, y por eso hay que limpiarla con filtro
 
 
 C. Pre procesamiento de la señal:
-Posterior se deben aplicar filtros digitales para lograr eliminar el ruido de la señal 
+Es importante mencionar que el pre procesamiento de una señal es algo fundamental, ya que con este paso se mejora la calidad de la señal capturada y de esta forma identificar correctamente en nuestro caso la señal del corazón. A partir de esto, como se mencionó anteriormente se toma la señal en reposo del sujeto de prueba, que se encuentraa contaminada por distintos ruidos, y para lograr corregir esto se implementan filtros digitales que son diseñados para este tipo de señal. En particular, se utiliza un filtro de tipo IIR (respuesta infinita al impulso), el cual se diseña de acuerdo con las características espectrales del ECG y se implementa considerando condiciones iniciales en cero. Este filtro se compone de una etapa pasa alta, que elimina las componentes de muy baja frecuencia, y una etapa pasa baja, que suprime las frecuencias altas no deseadas. El resultado es una señal limpia, con mejor definición del complejo QRS, como se muestra en la Imagen 5.
 
-
-Señal ECG filtrada (pasa alta y pasa bajo):
+Imagen 5, señal ECG filtrada (pasa alta y pasa bajo):
 <img width="857" alt="Figure 2025-05-13 193406 (1)" src="https://github.com/user-attachments/assets/ce944648-55a5-406a-8d6e-7ddef2d8ddf2" />
+Esta gráfica muestra la señal de ECG después de haber sido procesada con filtros digitales de tipo pasa alta y pasa baja. El propósito de este paso es eliminar el ruido presente en la señal original, tanto de baja frecuencia (como el producido por movimientos corporales o la respiración) como de alta frecuencia (como interferencias eléctricas o artefactos del entorno). Este filtrado permite obtener una señal más limpia y estable, fundamental para su posterior análisis. La curva resultante muestra con claridad los ciclos cardíacos, especialmente el complejo QRS, dentro del cual el pico R es el más prominente. Este preprocesamiento es una etapa clave dentro del procesamiento digital de señales, ya que permite mejorar la calidad de la información útil y facilita la implementación de algoritmos para detección de eventos y análisis cuantitativos.
 
 
 
-Señal ECG filtrada con picos R:
+Después, lo que hacemos es encontrar los picos R, que vienen siendo los puntos más álgidos del complejo QRS y que señalan cuándo se contraen los ventrículos. Para dar con ellos, usamos la señal que ya habíamos limpiado antes, aplicando métodos sencillos para buscar los puntos más altos y así clavar dónde están los picos con exactitud. Una vez que tenemos los picos R bien ubicados, calculamos el tiempo que hay entre uno y otro, que se conoce como intervalo R-R, y con esto armamos una nueva señal basada en los tiempos entre cada latido. Esta info es clave para estudiar cómo varía la frecuencia cardiaca (HRV), porque nos deja ver cómo el sistema nervioso autónomo anda regulando el ritmo del corazón. En la Imagen 6 se puede ver cómo queda todo esto, con los picos R resaltados para que se note la regularidad de los latidos, dejando la señal lista para seguir analizándola ya sea mirando el tiempo, o usando técnicas como la transformada wavelet para ver el tiempo y la frecuencia a la vez, lo cual se evidencia en la imagen 6.
+
+Imagen 6, señal ECG filtrada con picos R:
 <img width="857" alt="Figure 2025-05-13 193406 (2)" src="https://github.com/user-attachments/assets/12fb9ba7-4171-486a-9b19-c8079ea1dda7" />
-
-
+Esta gráfica presenta la misma señal de ECG ya filtrada, pero con la detección de los picos R resaltada mediante marcadores visuales (cruces amarillas). Estos picos corresponden a los máximos de cada complejo QRS y su detección precisa es esencial para calcular los intervalos R-R, es decir, el tiempo entre un latido y el siguiente. Esta etapa forma parte del proceso de extracción de características y se realiza aplicando técnicas de procesamiento digital como la derivación, umbralización adaptativa o algoritmos como Pan-Tompkins, que permiten identificar automáticamente estos puntos clave dentro de la señal. La identificación de los picos R permite transformar una señal continua en un conjunto de eventos temporales discretos, que son la base para el análisis de la variabilidad de la frecuencia cardiaca (HRV), tanto en el dominio del tiempo como en el dominio tiempo-frecuencia. Esta extracción es imprescindible para interpretar la dinámica del sistema nervioso autónomo y llevar a cabo estudios clínicos o biomédicos más avanzados.
 
 
 
