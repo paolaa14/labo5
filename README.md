@@ -12,7 +12,7 @@ Una VRC alta casi siempre indica buena capacidad de adaptación del sistema aut�
 
 Diagrama de flujo con el plan de acción para cumplir con el objetivo:
 
-![image](https://github.com/user-attachments/assets/b851f4fc-d29d-40cb-83c5-507fc137af71)
+![image](https://github.com/user-attachments/assets/c838b62a-ee88-413c-bdd7-79f4a346ffd9)
 
 
 codigo arduino: 
