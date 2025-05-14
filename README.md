@@ -33,7 +33,9 @@ B.Adquisición señal ECG;
 Inicialmente, se seleccionó un sujeto de prueba, para medirle la señal electrocardiográfica, el cual no tiene ninguna patología que pueda afectar el resultado de la señal, en la imagen 3 se evidencia al sujeto y adicional la ubicación de los electrodos (el de referencia que esta en la parte inferior que es la parte baja del tórax y los de arriba), a su vez, es necesario mencionar que al sujeto (Paola) se le hicieron distinas preguntas incomodas, con el fin de alterarle la frecuencia cardíaca y observar si en la señal se presentaban cambios, no obstante, no se evidenció nada distinto en la gráfica, lo que indica que a pesar de querer alterar la frecuencia no se logró, ya que en la señal todo se observa sin cambios drásticos ni evidentes:
 
 Imagen 3, foto del sujeto: 
-![Imagen de WhatsApp 2025-05-13 a las 17 18 06_8be3bb91](https://github.com/user-attachments/assets/96d86a0e-ce74-43e2-9b7e-fab7703eb361)
+
+![a6eca92e-f24b-47da-b030-0932806288ae](https://github.com/user-attachments/assets/8daa156a-d111-4191-8e8c-fa5049948a7c)
+
 
 Es necesario mencionar que en cuanto al sujeto no se autoriza el trataamiento de datos personales, sea para otros estudios, o para el mismo informe, por lo cual los distintos datos evidenciados solo serán implementados para este laboratorio. 
 
