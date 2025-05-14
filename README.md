@@ -30,7 +30,7 @@ se evidencia por partes para mejor visualización del contenido del mismo.
 
 B.Adquisición señal ECG;
 
-Inicialmente, se seleccionó un sujeto de prueba, para medirle la señal electrocardiográfica, el cual no tiene ninguna patología que pueda afectar el resultado de la señal, en la imagen 3 se evidencia al sujeto y adicional la ubicación de los electrodos (el de referencia que esta en la parte inferior que es la parte baja del tórax y los de arriba):
+Inicialmente, se seleccionó un sujeto de prueba, para medirle la señal electrocardiográfica, el cual no tiene ninguna patología que pueda afectar el resultado de la señal, en la imagen 3 se evidencia al sujeto y adicional la ubicación de los electrodos (el de referencia que esta en la parte inferior que es la parte baja del tórax y los de arriba), a su vez, es necesario mencionar que al sujeto (Paola) se le hicieron distinas preguntas incomodas, con el fin de alterarle la frecuencia cardíaca y observar si en la señal se presentaban cambios, no obstante, no se evidenció nada distinto en la gráfica, lo que indica que a pesar de querer alterar la frecuencia no se logró, ya que en la señal todo se observa sin cambios drásticos ni evidentes:
 
 Imagen 3, foto del sujeto: 
 ![Imagen de WhatsApp 2025-05-13 a las 17 18 06_8be3bb91](https://github.com/user-attachments/assets/96d86a0e-ce74-43e2-9b7e-fab7703eb361)
@@ -58,7 +58,7 @@ Imagen 4, señal ECG original de la matriz;
 
 <img width="857" alt="5min" src="https://github.com/user-attachments/assets/a752db1a-4a2d-4092-8a38-0b2a1d6755fd" />
 
-La imagen 4 muestra la señal del corazón (ECG) tal cual, sacada del sistema antes de limpiarla digitalmente. El tiempo se mide en milisegundos (ms) en la línea horizontal, y la fuerza de la señal en milivoltios (mV) en la línea vertical. Se ven unos 3,5 segundos, mostrando varios latidos completos. 
+La imagen 4 muestra la señal del corazón (ECG) tal cual, sacada del sistema antes de limpiarla digitalmente. El tiempo se mide en milisegundos (ms) en la línea horizontal, y la fuerza de la señal en milivoltios (mV) en la línea vertical. Se ven 5 minutos, mostrando varios latidos completos. 
 
 La señal se ve como un ECG normal, con las partes QRS (sobre todo los picos R) claras y altas, de más de 600 mV, no obstante, también hay anomalías en la línea base y ruido rápido y lento, tal vez por: Movimientos o respiración que la ensucian (cosas lentas) o electricidad que molesta del entorno o del sistema (cosas rápidas). 
 
