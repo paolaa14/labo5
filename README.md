@@ -29,6 +29,7 @@ se evidencia por partes para mejor visualización del contenido del mismo.
 
 
 B.Adquisición señal ECG;
+
 Inicialmente, se seleccionó un sujeto de prueba, para medirle la señal electrocardiográfica, el cual no tiene ninguna patología que pueda afectar el resultado de la señal, en la imagen 3 se evidencia al sujeto y adicional la ubicación de los electrodos (el de referencia que esta en la parte inferior que es la parte baja del tórax y los de arriba):
 
 Imagen 3, foto del sujeto: 
@@ -65,6 +66,7 @@ Esto es normal en una señal sin filtrar, y por eso hay que limpiarla con filtro
 
 
 C. Pre procesamiento de la señal:
+
 Es importante mencionar que el pre procesamiento de una señal es algo fundamental, ya que con este paso se mejora la calidad de la señal capturada y de esta forma identificar correctamente en nuestro caso la señal del corazón. A partir de esto, como se mencionó anteriormente se toma la señal en reposo del sujeto de prueba, que se encuentraa contaminada por distintos ruidos, y para lograr corregir esto se implementan filtros digitales que son diseñados para este tipo de señal. En particular, se utiliza un filtro de tipo IIR (respuesta infinita al impulso), el cual se diseña de acuerdo con las características espectrales del ECG y se implementa considerando condiciones iniciales en cero. Este filtro se compone de una etapa pasa alta, que elimina las componentes de muy baja frecuencia, y una etapa pasa baja, que suprime las frecuencias altas no deseadas. El resultado es una señal limpia, con mejor definición del complejo QRS, como se muestra en la Imagen 5.
 
 Imagen 5, señal ECG filtrada (pasa alta y pasa bajo):
