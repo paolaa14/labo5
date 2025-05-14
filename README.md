@@ -109,13 +109,44 @@ En la imagen 8 , vemos los coeficientes que salieron al usar la transformada wav
 
 
 
-E. Aplicación de transformada Wavelet 
+E. Aplicación de transformada Wavelet:
 
-Espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
+La transformada wavelet resulta ser una herramienta muy práctica al analizar señales que cambian con el tiempo, como la variabilidad de la frecuencia cardíaca (VFC). A diferencia de los análisis típicos que se hacen solo en el tiempo o en la frecuencia, esta transformada nos deja ver cómo varían las frecuencias que nos interesan a lo largo del tiempo, juntando información del momento y del espectro en un solo análisis. Para señales biológicas como el ECG y lo que sale de él (por ejemplo, la serie de intervalos R-R), una de las wavelets que mejor funciona es la de Morlet, ya que equilibra bien la resolución en tiempo y frecuencia. Aquí, se usaron espectrogramas hechos con la transformada wavelet continua, divididos en dos rangos: frecuencia baja (0. 04 a 0. 15 Hz) y frecuencia alta (0. 15 a 0. 4 Hz), que representan la actividad simpática y parasimpática del sistema nervioso autónomo, respectivamente. 
+
+
+Imagen 9, espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
+
 <img width="798" alt="Figure 2025-05-13 193406 (5)" src="https://github.com/user-attachments/assets/46987aef-fb3c-47a5-85a2-b8b859a67458" />
 
+La primera imagen nos muestra el espectrograma de la VFC en la banda de baja frecuencia (0. 04 – 0. 15 Hz). En el eje vertical vemos las frecuencias de ese rango, y en el eje horizontal tenemos el índice de cada intervalo R-R. Los colores nos dicen qué tan grande o potente es cada componente del espectro, siendo los tonos más claros (amarillo) los de mayor fuerza, y los más oscuros (azul/morado), los de menor. En esta imagen podemos ver que la energía se distribuye de forma bastante constante en las frecuencias más bajas (cerca de 0. 06 Hz), lo que indica que hay una actividad simpática continua. Pero también vemos zonas más oscuras, donde la magnitud baja, lo que podría significar momentos en los que el sistema simpático influye menos, tal vez por un estado de reposo o relajación. 
 
-Espectrograma de HVR en alta frecuencia (0.15 - 0.4 Hz):
+
+
+Imagen 10, espectrograma de HVR en alta frecuencia (0.15 - 0.4 Hz):
+
 <img width="804" alt="Figure 2025-05-13 193406 (6)" src="https://github.com/user-attachments/assets/d0b175db-341f-4bbe-9aa2-c06aec434239" />
 
+La segunda imagen muestra el espectrograma de la VFC en la banda de alta frecuencia (0. 15 – 0. 4 Hz). Aquí analizamos la actividad que suele relacionarse con el control parasimpático, que tiene que ver con funciones de descanso y recuperación. En este caso, vemos que la distribución es menos pareja: hay algunas zonas con mayor magnitud en el espectro (colores amarillos y naranjas), sobre todo al principio y al final del espectro temporal, lo que podría interpretarse como momentos en los que el sistema parasimpático tuvo una mayor presencia. Por el contrario, durante la mitad del análisis la actividad en alta frecuencia es menor, lo que se ve en las zonas más oscuras del espectrograma. Esta variación en el tiempo podría deberse a cambios en la respiración, movimientos pequeños del cuerpo o respuestas normales del cuerpo durante la medición de la señal. 
 
+Para sintetizar, la aplicación de la transformada wavelet hizo posible examinar minuciosamente la fluctuación de la energía de la señal de VFC a lo largo del tiempo en distintas bandas de frecuencia. Este dato resulta fundamental para enriquecer el análisis en el dominio temporal, puesto que ofrece una perspectiva más exhaustiva del comportamiento dinámico del sistema nervioso autónomo. La interpretación adecuada de estas representaciones gráficas puede ser sumamente beneficiosa en ámbitos clínicos y de investigación, sobre todo en el sector de la ingeniería biomédica.
+
+
+
+Criterio de evaluación a la presente práctica; 
+En este item para finalizar, para evaluar lo aprendido por los estudiantes, se van a responder ciertas preguntas con el fin de retroalimentar lo aprendido y en dado caso poder realizar la investigación de los términos en los que se puedan tener falencias. 
+
+
+
+1. ¿Qué diferencias se observan entre los análisis en el dominio del tiempo y el 
+dominio tiempo-frecuencia?
+
+-El análisis en el dominio temporal, como el cómputo de los intervalos R-R junto con sus estadísticas (promedio y desviación estándar), se centra en las alteraciones de la VFC sin dar datos sobre cómo varían las frecuencias con el tiempo. En cambio, el análisis tiempo-frecuencia, a través de la transformada wavelet, facilita la observación del desarrollo de frecuencias concretas (como baja y alta frecuencia) en el tiempo, mostrando alteraciones en la potencia espectral y cómo estas se podrían relacionar con las actividades simpática y parasimpática en el sistema nervioso autónomo. 
+
+2.¿Qué efecto tiene el uso de diferentes funciones wavelet en los resultados del 
+análisis?
+
+-Cada clase de wavelet posee una resolución única en tiempo y frecuencia, lo cual afecta la exactitud con la que es posible apreciar alteraciones en las señales. En señales biológicas, como el ECG, el tipo de wavelet elegido (como Morlet o Daubechies) puede influir en la nitidez de la separación de frecuencias de interés, ya sea mejorando o limitando la interpretación de los patrones de la VFC. Modificar la wavelet puede acentuar ciertas facetas de la señal o disminuir el ruido en frecuencias determinadas. 
+
+3. ¿Qué aplicaciones reales tiene esta práctica?
+
+-Este análisis es clave en aplicaciones de seguimiento de la salud, como la vigilancia de la respuesta autonómica del corazón en pacientes con problemas cardíacos o en investigaciones sobre estrés y control emocional. En el campo biomédico, esta técnica se usa para evaluar la salud del sistema nervioso autónomo, descubrir anomalías cardíacas y estudiar la reacción del corazón ante diversas situaciones fisiológicas. Aparte, técnicas parecidas se utilizan en aparatos de monitoreo a distancia para pacientes y en estudios de la respuesta cardíaca a intervenciones terapéuticas.
