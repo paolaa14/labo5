@@ -65,11 +65,19 @@ Señal ECG original de la matriz;
 <img width="857" alt="Figure 2025-05-13 193406 (0)" src="https://github.com/user-attachments/assets/8f98d940-118a-43f4-adc0-19c9d13ca0cf" />
 
 
-Señal ECG filtrada (pasa alta y pasa bajo)
+Señal ECG filtrada (pasa alta y pasa bajo):
 <img width="857" alt="Figure 2025-05-13 193406 (1)" src="https://github.com/user-attachments/assets/ce944648-55a5-406a-8d6e-7ddef2d8ddf2" />
 
 
+
+Señal ECG filtrada con picos R:
 <img width="857" alt="Figure 2025-05-13 193406 (2)" src="https://github.com/user-attachments/assets/12fb9ba7-4171-486a-9b19-c8079ea1dda7" />
+
+
+Espectrrograma de HVR en baja frecuencia(0.04 -0.15 Hz); 
 <img width="798" alt="Figure 2025-05-13 193406 (5)" src="https://github.com/user-attachments/assets/46987aef-fb3c-47a5-85a2-b8b859a67458" />
+
+
+
 <img width="804" alt="Figure 2025-05-13 193406 (6)" src="https://github.com/user-attachments/assets/d0b175db-341f-4bbe-9aa2-c06aec434239" />
 <img width="506" alt="Captura de pantalla 2025-05-13 a la(s) 7 36 18 p m" src="https://github.com/user-attachments/assets/dca8f1bf-2bf1-4a4a-b7b5-1bd1535a4975" />
