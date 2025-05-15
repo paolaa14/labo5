@@ -35,7 +35,7 @@ Imagen 3, foto del sujeto:
 ![a6eca92e-f24b-47da-b030-0932806288ae](https://github.com/user-attachments/assets/8daa156a-d111-4191-8e8c-fa5049948a7c)
 
 
-Es necesario mencionar que en cuanto al sujeto no se autoriza el trataamiento de datos personales, sea para otros estudios, o para el mismo informe, por lo cual los distintos datos evidenciados solo serán implementados para este laboratorio. 
+Es necesario mencionar que en cuanto al sujeto no se autoriza el tratamiento de datos personales, sea para otros estudios, o para el mismo informe, por lo cual los distintos datos evidenciados solo serán implementados para este laboratorio y es por esta razón que no se muestra la cara del sujeto de prueba. 
 
 La señal se tomó durante 5 minutos en reposo, con el fin de evitar el ruido experimental causado por distintos factores como: ropa, cables rozando, etc.
 
