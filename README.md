@@ -60,12 +60,9 @@ Imagen 4, señal ECG original de la matriz;
 
 <img width="857" alt="5min" src="https://github.com/user-attachments/assets/a752db1a-4a2d-4092-8a38-0b2a1d6755fd" />
 
-La imagen 4 muestra la señal del corazón (ECG), sacada del sistema antes de limpiarla digitalmente. El tiempo se mide en milisegundos (ms) como se evidencia en el eje horizontal, y la fuerza de la señal en milivoltios (mV) en el eje vertical, se ven 5 minutos, mostrando varios latidos completos. 
+La imagen 4, muestra la señal del corazón (ECG), que se obtiene directamente del sistema de adquisición por medio del código de arduino, donde en el eje horizontal se evidencia el tiempo expresado en milisegundos (que abarca unb total de 300.000 ms = los 5 minutos) y en el eje vertical se evidencia la frecuencia de muestreo de 1.000 Hz, es decir que se tomaron mil muestras por segundo, y que a su vez siignifica que los datos se tomaron con más precisión en cuanto a los detalles rápidos del complejo QRS. Por otro lado, en cuanto a los niveles de cuantificación se implementaron niveles de cuantificación de 10 bits, esto quiere decir que la señal se codificó a 1,024 niveles distintos de voltaje, con  el fin de garantizar una buena resolución en la conversion de la señal analógica a digital. 
 
 La señal se ve como un ECG normal, con las partes QRS (sobre todo los picos R) claras y altas, de más de 600 mV, no obstante, también hay anomalías en la línea base y un ruido rápido y lento, tal vez por: movimientos o respiración que le generan ruido (cosas lentas) o electricidad proveniente del entorno (cosas rápidas). 
-
-Esto es normal en una señal sin filtrar, y por eso hay que limpiarla con filtros digitales. Estos filtros quitan el ruido y mejoran la señal, ayudando a encontrar los picos R y a estudiar cómo cambia el ritmo del corazón (HRV). Además, observando cómo están los picos R, se puede comprender que el corazón late a un ritmo constante.
-
 
 C. Pre procesamiento de la señal:
 
