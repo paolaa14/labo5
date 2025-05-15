@@ -68,6 +68,9 @@ C. Pre procesamiento de la señal:
 
 Es importante mencionar que el pre procesamiento de una señal es algo fundamental, ya que con este paso se mejora la calidad de la señal capturada y de esta forma identificar correctamente en nuestro caso la señal del corazón. A partir de esto, como se mencionó anteriormente se toma la señal en reposo del sujeto de prueba, que se encuentraa contaminada por distintos ruidos, y para lograr corregir esto se implementan filtros digitales que son diseñados para este tipo de señal. En particular, se utiliza un filtro de tipo IIR (respuesta infinita al impulso), el cual se diseña de acuerdo con las características espectrales del ECG y se implementa considerando condiciones iniciales en cero. Este filtro se compone de una etapa pasa alta, que elimina las componentes de muy baja frecuencia, y una etapa pasa baja, que suprime las frecuencias altas no deseadas. El resultado es una señal limpia, con mejor definición del complejo QRS, como se muestra en la Imagen 5.
 
+
+
+Antes 
 Imagen 5, señal ECG filtrada (pasa alta y pasa bajo):
 
 <img width="857" alt="5minfiltro" src="https://github.com/user-attachments/assets/be4ef1bc-3f2b-460b-9dc4-9c6c7e3d30b7" />
