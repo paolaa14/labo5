@@ -10,10 +10,12 @@ Para la práctica de laboratorio, fue necesario realizar una investigación teó
 
 
 Imagen 1, plan de acción para cumplir con el objetivo:
+
 ![image](https://github.com/user-attachments/assets/c838b62a-ee88-413c-bdd7-79f4a346ffd9)
 
 
 Imagen 2, diagrama de flujo que complementa el plan de acción:
+
 se evidencia por partes para mejor visualización del contenido del mismo.
 
 <img width="798![PHOTO-2025-05-13-17-18-06](https://github.com/user-attachments/assets/7093d273-0b0b-4d0c-9af4-df37c1cc0f61)
